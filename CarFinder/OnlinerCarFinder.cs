@@ -22,7 +22,7 @@ namespace CarFinder
             if (!(searchParams.Make is null))
             {
                 var make = searchParams.Make.Trim();
-                var make = Enums.OnlinerBrands.;
+                //var make = Enums.OnlinerBrands.;
                 url = url + "/" + searchParams.Make;
                 if (!(searchParams.Model is null))
                 {

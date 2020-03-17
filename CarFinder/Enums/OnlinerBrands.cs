@@ -6,10 +6,12 @@ using System.Threading.Tasks;
 
 namespace CarFinder.Enums
 {
-    internal enum OnlinerBrands
+    internal enum OnlinerBrands : int
     {
-        Bmw = 1,
+        Bmw = 5,
         Nissan = 45,
-        Tesla = 3
+        Tesla = 112,
+        Renault = 52,
+        Fiat = 18
     }
 }
